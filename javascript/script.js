@@ -51,11 +51,11 @@ function switchMain(){
 
     for (let i = 1; i < 4; i++){
         document.getElementById(`line${i}`).innerHTML += `
-        <div class="indicator" id="indicator${options[i - 1]}${1}" onclick="switchToAnother(${1},${options[i-1]})">
+        <div class="indicator" id="indicator${ options[i - 1] }${ 1 }" onclick="switchToAnother(${ 1 }, '${ options[i - 1] }')">
         </div>
-        <div class="indicator" id="indicator${options[i - 1]}${2}" onclick="switchToAnother(${2} ,${options[i-1]})">
+        <div class="indicator" id="indicator${ options[i - 1] }${ 2 }" onclick="switchToAnother(${ 2 }, '${ options[i - 1] }')">
         </div>
-        <div class="indicator" id="indicator${options[i - 1]}${3}" onclick="switchToAnother(${3} ,${options[i-1]})">
+        <div class="indicator" id="indicator${ options[i - 1] }${ 3 }" onclick="switchToAnother(${ 3 }, '${ options[i - 1] }')">
         </div>`
     }
 
