@@ -1,0 +1,144 @@
+body{
+    background-image: url(../images/startscreen.webp);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: boys;
+    src: url(../font/charlie_don_t_surf/the_boys.ttf);
+}
+
+#maintitle{
+    text-align: center;
+    font-family: boys;
+    font-size: 5rem;
+    color: white;
+    position: relative;
+    bottom: 4vh;
+}
+
+
+#subMainTitle{
+    text-align: center;
+    font-family: boys;
+    color: white;
+    position: relative;
+    font-size: 2rem;
+    bottom: 9vh;
+}
+
+#maintitle2{
+    text-align: center;
+    font-family: boys;
+    font-size: 5rem;
+    color: white;
+}
+
+
+#subMainTitle2{
+    text-align: center;
+    font-family: boys;
+    color: white;
+    position: relative;
+    bottom: 4vh;
+}
+
+#switchToMain{
+    width: 20vw;
+    position: relative;
+    top: 65vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+    left: 40vw;
+    border: 5px solid white;
+    transition: linear 0.3s all;
+}
+
+#switchH3{
+    font-family: boys;
+    font-size: 2rem;
+}
+
+#switchToMain:hover{
+    background-color: rgba(0, 0, 0, 1);
+    transform: scale(1.1,1.1);
+}
+
+#bigMainBox{
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    border: 3px solid white;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    top: 10vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#leftMainBox{
+    width: 50%;
+    height: 100%;
+}
+
+#rightMainBox{
+    width: 50%;
+    height: 100%;
+}
+
+.wholeletterline{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+}
+
+.wholeLineCust{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+}
+
+.indicator{
+    border: 3px solid white;
+    width: 25%;
+    height: 3vh;
+    transition: linear all 0.3s;
+}
+
+.indicator:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.type{
+    position: relative;
+    right: 3vw;
+    text-align: center;
+    font-size: 2rem;
+    font-family: boys;
+    color: white;
+}
+
+.textIndicator{
+    color: white;
+    font-family: boys;
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+#indicatorDurability1{
+    background-color: white;
+}
+
+#indicatorInsanity1{
+    background-color: white;
+}
+
+#indicatorAbilities1{
+    background-color: white;
+}
