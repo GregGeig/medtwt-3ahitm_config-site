@@ -73,7 +73,6 @@ body{
     height: 60vh;
     display: flex;
     flex-direction: row;
-    top: 10vh;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -141,4 +140,22 @@ body{
 
 #indicatorAbilities1{
     background-color: white;
+}
+
+#lastSwitch{
+    text-align: center;
+    border: 3px solid white;
+    position: relative;
+    top: 5vh;
+    left: 37vw;
+    font-family: boys;
+    color: white;
+    width: 26vw;
+    font-size: 1.6rem;
+    transition: linear all 0.3s;
+}
+
+#lastSwitch:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
 }
