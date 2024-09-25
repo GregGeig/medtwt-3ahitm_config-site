@@ -27,7 +27,9 @@ function switchMain() {
     <h2 id="subMainTitle2">Find them by Ranking them in the given Categories</h2>
     <div id="bigMainBox">
     <div id="leftMainBox">
-    <img id="hero_img" src="">
+    <div id="charimg">
+    <img id="hero_img" src="./images/durability1_insanity1_abilities1.webp">
+    </div>
     </div>
     <div id="rightMainBox">
     </div>
@@ -64,7 +66,7 @@ function switchMain() {
     }
 
     document.getElementById("content").innerHTML +=
-    `<div id="lastSwitch" onclick="switchToLast()">
+        `<div id="lastSwitch" onclick="switchToLast()">
     <h2>Submit chosen Hero</h2>
     </div>`
 
@@ -84,6 +86,6 @@ function switchToAnother(numb, opt) {
     document.getElementById("hero_img").src = `./images/durability${characteristics.durability}_insanity${characteristics.insanity}_abilities${characteristics.abilities}.webp`
 }
 
-function switchToLast(){
+function switchToLast() {
     document.getElementById("content").innerHTML = ""
 }
