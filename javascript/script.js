@@ -87,5 +87,6 @@ function switchToAnother(numb, opt) {
 }
 
 function switchToLast() {
-    document.getElementById("content").innerHTML = ""
+    document.getElementById("content").innerHTML = `
+    <h1 id="maintitle3">Thanks for choosing your supe</h1>`
 }
