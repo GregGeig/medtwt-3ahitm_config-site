@@ -66,7 +66,7 @@ body{
 }
 
 #bigMainBox{
-    width: 60vw;
+    width: 70vw;
     position: relative;
     left: 20vw;
     border: 3px solid white;
@@ -79,11 +79,13 @@ body{
 #leftMainBox{
     width: 50%;
     height: 100%;
+    border-right: white solid 5px;
 }
 
 #rightMainBox{
     width: 50%;
     height: 100%;
+    margin-left: 6vw;
 }
 
 .wholeletterline{
@@ -159,7 +161,7 @@ body{
     width: 60%;
     height: auto;
     position: relative;
-    left: 5vw;
+    left: 7vw;
 }
 
 #indicatordurability1{
@@ -193,3 +195,24 @@ body{
     font-size: 5rem;
     color: white;
 }
+ #finalimg{
+    width: 22vw;
+    height: 80vh;
+    position: relative;
+    left: 35vw;
+    bottom: 6vh;
+ }
+
+ #finalimgimg{
+    width: 100%;
+    height: 80vh;
+ }
+
+ #submain3{
+    text-align: center;
+    font-family: boys;
+    color: white;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 3vh;
+ }

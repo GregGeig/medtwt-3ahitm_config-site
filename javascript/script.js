@@ -88,5 +88,9 @@ function switchToAnother(numb, opt) {
 
 function switchToLast() {
     document.getElementById("content").innerHTML = `
-    <h1 id="maintitle3">Thanks for choosing your supe</h1>`
+    <h1 id="maintitle3">Thanks for choosing your supe</h1>
+    <h3 id="submain3">Chosen supe:</h3>
+    <div id="finalimg">
+    <img id="finalimgimg" src="./images/durability${characteristics.durability}_insanity${characteristics.insanity}_abilities${characteristics.abilities}.webp">
+    </div>`
 }
