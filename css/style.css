@@ -18,7 +18,7 @@ body{
 }
 
 
-#subMainTitle{
+.subMainTitle{
     text-align: center;
     font-family: boys;
     color: white;
@@ -68,7 +68,7 @@ body{
 #bigMainBox{
     width: 70vw;
     position: relative;
-    left: 20vw;
+    left: 15vw;
     border: 3px solid white;
     height: 60vh;
     display: flex;
@@ -130,6 +130,8 @@ body{
     font-family: boys;
     font-size: 1.5rem;
     width: 25%;
+    position: relative;
+    left: 1vw;
 }
 
 #indicatorDurability1{
@@ -216,3 +218,5 @@ body{
     position: relative;
     bottom: 3vh;
  }
+
+ 

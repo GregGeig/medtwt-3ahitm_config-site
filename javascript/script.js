@@ -7,19 +7,18 @@ const characteristics = {
     insanity: 1,
     abilities: 1
 }
-
 let options = Object.keys(characteristics)
 
 
 
 let stats = [
     ["Low", "Medium", "High"],
-    ["Normal", "Psychotic", "Insane"],
+    ["Normal", "Psycho", "Insane"],
     ["Weak", "Medium", "Strong"]
 ]
 
 function switchMain() {
-    document.body.style.background = "url(../images/mainscreen.jpg)"
+    document.body.style.background = "url(./images/mainscreen.jpg)"
     document.body.style.backgroundSize = "112vw"
     document.body.style.backgroundPositionX = "-4vw"
     document.getElementById("content").innerHTML = `
